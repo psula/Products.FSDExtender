@@ -1,0 +1,4 @@
+<layers>
+    <layer name="Products.FSDExtender"
+           interface="Products.FSDExtender.interfaces.IFSDExtenderLayer" />
+</layers>

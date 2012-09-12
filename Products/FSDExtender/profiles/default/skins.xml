@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<object name="portal_skins">
+    <object name="FSDExtender"
+         meta_type="Filesystem Directory View"
+         directory="Products.FSDExtender:skins/FSDExtender" />
+         
+    <object name="FSDExtender_images"
+        meta_type="Filesystem Directory View"
+        directory="Products.FSDExtender:skins/FSDExtender_images" />
+         
+    <object name="FSDExtender_styles"
+        meta_type="Filesystem Directory View"
+        directory="Products.FSDExtender:skins/FSDExtender_styles" />
+        
+    <skin-path name="*">
+        <layer name="FSDExtender" insert-after="custom"/>
+        <layer name="FSDExtender_images" insert-after="custom"/>
+        <layer name="FSDExtender_styles" insert-after="custom"/>
+    </skin-path>
+</object>

@@ -1,0 +1,81 @@
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/* DELETE THIS LINE AND PUT YOUR CSS STUFF HERE */
+
+#visual-portal-wrapper {
+	border: 1px solid;
+	width: 960px;
+	margin: auto;
+} 
+
+
+
+.vcard h3 {
+	margin-top: 10px;
+}
+
+.officeHours li {
+	list-style: none;
+	margin: 0;
+}
+
+.personCV a {
+	margin: 2em;
+}
+
+.websites li {
+	list-style: none;
+}
+
+.socialNetworkWebsites {
+	margin-top: 10px;
+	}
+	
+
+
+.socialNetworkWebsites h3 {
+	float: left;
+	padding-right: 10px;
+	margin-top: 0;
+}
+
+
+/******** Fix FSD Styles to make them look better ************/
+
+.headshot {
+	padding-right: 0;
+	}
+
+.facultyStaffDirectory.personView .headshot {
+	border: 1px solid #ccc;
+	float: right;
+
+	}
+	
+.facultyStaffDirectory.personView .headshot a.socialNetworkURL img {
+	border: none;
+	}
+	
+#content .facultyStaffDirectory.personView .headshot a:link, #content .facultyStaffDirectory.personView .headshot a:visited {
+	border-bottom: 0;
+	text-decoration: none;
+	}
+	
+.facultyStaffDirectory.personView .websites h3 {
+	margin: 1em 0 0 0;
+	}
+	
+.facultyStaffDirectory.personView .websites ul {
+	margin: 0;
+	}
+	
+p.title {
+	font-weight: bold;
+	}
+	
+
+
+
+
+/* </dtml-with> */
